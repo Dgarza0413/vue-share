@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [{ "src": "server.js", "use": "@now/node" }],
+  "routes": [{ "src": "/.*", "dest": "App.vue" }],
+  "env": {
+    "MONGO_URI": "mongodb+srv://dgarza:Webdev2019@dbcluster-29s92.mongodb.net/test?retryWrites=true",
+    "SECRET": "ASD456FLKJQWERPOIU234kj",
+    "PORT": "80"
+  }
+}
